@@ -79,21 +79,21 @@ function App() {
 			<p><em>Chief Technology Officer</em></p>
 			<p>Jan 2022–Feb 2023</p>
 			<ul>
-				<li>Lead a team of 6 to develop a dynamic and interactive website in HTML, CSS, 
+				<li>-Lead a team of 6 to develop a dynamic and interactive website in HTML, CSS, 
           and JS using VSCode and a React.js framework </li>
-				<li>Envision and implement my vision for the organization by 
+				<li>-Envision and implement my vision for the organization by 
           effectively communicating with 15 team members to strategically delegate tasks.</li>
-				<li>Manage legal documents and paperwork on behalf of the organization.</li>
+				<li>-Manage legal documents and paperwork on behalf of the organization.</li>
 			</ul>
       <h4>MOCORE Lab – Stevens Institute of Technology</h4>
 			<p><em>BME VR Development Intern </em></p>
 			<p>May 2021–Sep 2021 </p>
 			<ul>
-				<li>Lead a team of 6 to develop a dynamic and interactive website in HTML, CSS, 
+				<li>-Lead a team of 6 to develop a dynamic and interactive website in HTML, CSS, 
           and JS using VSCode and a React.js framework </li>
-				<li>Envision and implement my vision for the organization by 
+				<li>-Envision and implement my vision for the organization by 
           effectively communicating with 15 team members to strategically delegate tasks.</li>
-				<li>Manage legal documents and paperwork on behalf of the organization.</li>
+				<li>-Manage legal documents and paperwork on behalf of the organization.</li>
 			</ul>
 		</article>
    </section>
@@ -104,29 +104,29 @@ function App() {
 			      <p><em>SafeTransit</em></p>
 			      <p>Feb 2023</p>
 			      <ul>
-				      <li>Developed a Flask application that serves to make NJ Transit trains safer by alerting authorities if disturbances are detected in security cameras.</li>
-				      <li>Built backend in Python and integrated Google VisionAPI, an ML model differentiating between violent and nonviolent physical contact, and Twilio API to detect violence, weapons, and spills in images and automatically calling the authorities of the issue.</li>
-				      <li>For proof of concept, integrated a static webpage to upload a file of images and used a REST API to execute the backend script.</li>
-				      <li>Has the potential to be utilized in NJ Transit trains to promote safety for customers according to NJ Transit official judges.</li>
+				      <li>-Developed a Flask application that serves to make NJ Transit trains safer by alerting authorities if disturbances are detected in security cameras.</li>
+				      <li>-Built backend in Python and integrated Google VisionAPI, an ML model differentiating between violent and nonviolent physical contact, and Twilio API to detect violence, weapons, and spills in images and automatically calling the authorities of the issue.</li>
+				      <li>-For proof of concept, integrated a static webpage to upload a file of images and used a REST API to execute the backend script.</li>
+				      <li>-Has the potential to be utilized in NJ Transit trains to promote safety for customers according to NJ Transit official judges.</li>
 			      </ul>
             <h4>Smith Investment Fund</h4>
 			      <p><em>Netflix Ranking System</em></p>
 			      <p>Sep 2022</p>
 			      <ul>
-				      <li>Analyzed a dataset with over 9,000 titles on Netflix in Python using NumPy, Pandas, and Scikit and visualized over 10 sets of trends within the data using Matplotlib.</li>
-				      <li>Created a composite score to rank each title by using the correlational weights of the IMDb Score, Rotten Tomatoes, Hidden Gem, and Metacritic Score for each title.</li>
-              <li>Designed an algorithm known as NetfScore to rank titles using both popularity and user reviews, 
+				      <li>-Analyzed a dataset with over 9,000 titles on Netflix in Python using NumPy, Pandas, and Scikit and visualized over 10 sets of trends within the data using Matplotlib.</li>
+				      <li>-Created a composite score to rank each title by using the correlational weights of the IMDb Score, Rotten Tomatoes, Hidden Gem, and Metacritic Score for each title.</li>
+              <li>-Designed an algorithm known as NetfScore to rank titles using both popularity and user reviews, 
                 unlike the current ranking system that focuses solely on views. </li>
-				      <li>Created a PowerPoint presentation depicting prominent trends in data in a succinct and comprehensive manner.</li>
+				      <li>-Created a PowerPoint presentation depicting prominent trends in data in a succinct and comprehensive manner.</li>
 			      </ul>
             <h4>Hack TCNJ (Major League Hacking)</h4>
 			      <p><em>JoyScore</em></p>
 			      <p>Apr 2022</p>
 			      <ul>
-				      <li>Built a web application in Python using Jupyter Notebook and Voila server extension that uses Google VisionAPI and Youtube Data API to detect 4 types of user emotions as they are watching a video.</li>
-				      <li>Designed a numerical emotion weighting system to provide content recommendation based on a user’s emotions. </li>
-              <li>Has potential to be integrated in apps such as Tiktok and Youtube to recommend appropriate content using emotion sentiment score.</li>
-				      <li>Won 'Best Use of Google Cloud' award among 50+ undergraduate and high school students, as a high schooler.</li>
+				      <li>-Built a web application in Python using Jupyter Notebook and Voila server extension that uses Google VisionAPI and Youtube Data API to detect 4 types of user emotions as they are watching a video.</li>
+				      <li>-Designed a numerical emotion weighting system to provide content recommendation based on a user’s emotions. </li>
+              <li>-Has potential to be integrated in apps such as Tiktok and Youtube to recommend appropriate content using emotion sentiment score.</li>
+				      <li>-Won 'Best Use of Google Cloud' award among 50+ undergraduate and high school students, as a high schooler.</li>
 			      </ul>
           </article>
         </section>
@@ -143,18 +143,18 @@ function App() {
 			      <p><em>Customer Service Representative</em></p>
 			      <p>Jul 2022 - Sep 2022</p>
 			      <ul>
-				      <li>Expedite customer orders by following organization rules of readiness and customer satisfaction.</li>
-				      <li>Performed cashier duties that included adjusting the daily money and transaction receipts at theend of each shift.</li>
-              <li>Confirmed safety procedures and all daily cleaning are completed each hour.</li>
-				      <li>Assist customers with suggestions and answer questions with an amiable demeanor.</li>
+				      <li>-Expedite customer orders by following organization rules of readiness and customer satisfaction.</li>
+				      <li>-Performed cashier duties that included adjusting the daily money and transaction receipts at theend of each shift.</li>
+              <li>-Confirmed safety procedures and all daily cleaning are completed each hour.</li>
+				      <li>-Assist customers with suggestions and answer questions with an amiable demeanor.</li>
 			      </ul>
             <h4>Stichies Reselling</h4>
-			      <p><em></em></p>
+			      <p><em>Chief Executive Officer</em></p>
 			      <p>Mar 2020 - Aug 2022</p>
 			      <ul>
-				      <li>Strategically regulated and managed exclusive and sought-after inventory valued over $50,000+</li>
-				      <li>Analyzed market trends of 94.9-billion-dollar industry to preemptively purchase high demand goods</li>
-              <li>Developed positive consumer relations with 100+ customers in both, marketplace and surrounding community</li>
+				      <li>-Strategically regulated and managed exclusive and sought-after inventory valued over $50,000+</li>
+				      <li>-Analyzed market trends of 94.9-billion-dollar industry to preemptively purchase high demand goods</li>
+              <li>-Developed positive consumer relations with 100+ customers in both, marketplace and surrounding community</li>
 			      </ul>
           </article>
         </section>        
