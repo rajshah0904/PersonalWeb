@@ -1,10 +1,24 @@
 import logo from './logo.svg';
 import './App.css';
-
-
-import React from 'react';
+import emailjs from '@emailjs/browser';
+import React, { useRef } from 'react';
+import { useState } from 'react';
 
 function App() {
+	
+	const form = useRef();
+	const [formSubmitted, setFormSubmitted] = useState(false);
+
+	const sendEmail = (e) => {
+    	e.preventDefault();
+
+    	emailjs.sendForm('service_zt4wjqt', 'template_51xrq6g', form.current, 'Jv9ADAhZHjRwK8V1Q')
+     	 .then((result) => {
+			setFormSubmitted(true);
+      	}, (error) => {
+        	console.log(error.text);
+      	});
+  	};
   return (
     <div>
       <header>
@@ -157,18 +171,24 @@ function App() {
               <li>-Developed positive consumer relations with 100+ customers in both, marketplace and surrounding community</li>
 			      </ul>
           </article>
-        </section>        
+        </section>       
         <section id="contact-me">
-          <h2>Contact Me</h2>
-          <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required/>
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required/>
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" required></textarea>
-            <button type="submit">Send</button>
-          </form>
+			<h2>Contact Me</h2>
+			{!formSubmitted ? (
+        		<form ref={form} onSubmit={sendEmail}>
+					<label>Name</label>
+			    	<input type="text" name="user_name" />
+					<label>Email</label>
+					<input type="email" name="user_email" />
+					<label>Message</label>
+					<textarea name="message" />
+					<button type="submit">Send</button>
+				</form>
+      		) : (
+        		<p>Thank you for your message! I will get back to you
+					as soon as possible.
+				</p>
+      		)}
         </section>
       </main>
     </div>
